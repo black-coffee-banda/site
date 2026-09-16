@@ -1,0 +1,140 @@
+:root {
+    --red: #FF0000;
+    --white: #ffffff;
+    --black: #000000;
+}
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+}
+body {
+    background-color: var(--bg);
+    color: var(--fontColor);
+    font-size: 20px;
+}
+.texto {
+    font-family: "Special Elite", cursive;
+    font-size: 20px;
+    text-align: left;
+    margin: 50px;
+}
+.textoCENTER {
+    font-family: "Special Elite", cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+a {
+    color: var(--white);
+}
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+.discos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.zines {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nomes {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.imagem01 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+.imagem02 {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    transform: none !important;
+}
+.imagem03 {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+.imagem04 {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.imagem05 {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.codigo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+.nav-item {
+    font-family: "special elite", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.footer {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    padding: 20px;
+    background-color: var(--bg);
+    color: var(--fontColor);
+}
+ul {
+    font-family: "Roboto Mono", monospace;
+    font-size: 10px;
+    display: flex;
+    margin: 30px 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+li {
+    list-style: linear-gradient();
+}
+.list {
+    list-style: circle;
+}
+li a {
+    display: circle;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    color: var(--fontColor);
+    background-color: var(--bg);
+}
